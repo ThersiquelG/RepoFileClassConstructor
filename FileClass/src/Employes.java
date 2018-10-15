@@ -28,5 +28,13 @@ public Employes(String nom, String prenom) {
 	this.nom = nom;
 	this.prenom = prenom;
 }
+
+public Employes() {
+	
+}
+@Override
+public String toString() {
+	return "Employes [nom=" + nom + ", prenom=" + prenom + ", numerosocial=" + numerosocial + "]";
+}
  
 }
