@@ -19,11 +19,16 @@ public class Testclass2 {
 				// on récupère le nom de ce fichier... 
 				String fileName = pathname.getName() ; 
 				// ... et on teste s'il se termine par .java 
-				return fileName.endsWith(".java") ; 
+				return fileName.endsWith(".java") ;
+				
 			}
 		});
 		
 		
+		//print des fichiers java
+		for(File path:fichiersJava) {
+			System.out.println(path);
+		}
 		
 		
 
